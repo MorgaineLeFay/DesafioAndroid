@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_activities"
+    android:paddingBottom="@dimen/padding_activities"
+    android:paddingStart="@dimen/padding_activities"
+    android:paddingEnd="@dimen/padding_activities"
+    android:background="@color/background_logon_cadastro"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/id_cadastro_cepEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CEP"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+    <EditText
+        android:id="@+id/id_cadastro_ruaEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rua"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+    <EditText
+        android:id="@+id/id_cadastro_numeroEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Número"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+
+        <EditText
+            android:id="@+id/id_cadastro_bairroEdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Bairro"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/background_tint"
+            android:textColorHint="@color/color_hint"/>
+
+        <EditText
+            android:id="@+id/id_cadastro_cidadeEdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cidade"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/background_tint"
+            android:textColorHint="@color/color_hint"/>
+
+    <EditText
+        android:id="@+id/id_cadastro_estadoEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Estado"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+    <Button
+        android:id="@+id/cadastro_continuarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/color_button"
+        android:text="Finalizar Cadastro"
+        android:textColor="@color/background_tint"
+        android:onClick="chamarCadastro2Onclick"/>
+</LinearLayout>

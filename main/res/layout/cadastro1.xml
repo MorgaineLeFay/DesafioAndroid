@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_activities"
+    android:paddingBottom="@dimen/padding_activities"
+    android:paddingStart="@dimen/padding_activities"
+    android:paddingEnd="@dimen/padding_activities"
+    android:background="@color/background_logon_cadastro"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/id_cadastro_emailEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+    <EditText
+        android:id="@+id/id_cadastro_instituicaoEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome Instituição"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+    <EditText
+        android:id="@+id/id_cadastro_cnpjEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CNPJ"
+        android:inputType="numberSigned"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/id_cadastro_DDDfone1Edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="DDD"
+            android:inputType="number"
+            android:backgroundTint="@color/background_tint"
+            android:textColorHint="@color/color_hint"/>
+
+        <EditText
+            android:id="@+id/id_cadastro_fone1Edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Telefone"
+            android:inputType="number"
+            android:backgroundTint="@color/background_tint"
+            android:textColorHint="@color/color_hint"/>
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/id_cadastro_passwordEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:ems="10"
+        android:hint="Senha Portal"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+    <EditText
+        android:id="@+id/id_cadastro_password_cnfrmEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirmar Senha"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/background_tint"
+        android:textColorHint="@color/color_hint"/>
+
+
+    <Button
+        android:id="@+id/cadastro_continuarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/color_button"
+        android:text="Continuar"
+        android:textColor="@color/background_tint"
+        android:onClick="chamarCadastro2Onclick"/>
+</LinearLayout>

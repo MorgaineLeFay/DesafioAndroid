@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_logon_cadastro">#593b9c</color>
+    <color name="background_tint">#ffffff</color>
+    <color name="color_hint">#9e9494</color>
+    <color name="color_button">#7847c6</color>
+</resources>
